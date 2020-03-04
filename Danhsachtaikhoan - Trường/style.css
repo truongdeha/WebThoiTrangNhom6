@@ -1,0 +1,211 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.menu>ul>li>ul>li{
+	display: none;
+	position: absolute;
+	background-color: #f5f5f5;
+	z-index: 1;
+	list-style: none;
+}
+/*.dropdown-content a{
+	color: black;
+	padding: 10px 10px;
+	text-decoration: none;
+}*/
+#total { width:2000px; height:2780px; margin:auto; background:#F0F0F0; position:relative; }
+#total2 { width:2000px; height:1100px; margin:auto; background:#F0F0F0; position:relative; }
+.background { background-image:url(anh/123sua.jpg); width:2000px; height:800px ; position:relative;}
+
+#top4 { width:1100px; height:40px; background:#666; float:left; margin-left:400px;position:relative; margin-top:20px }
+#top4>ul>li { list-style-type:none;}
+#top4>ul>li { float:left; line-height:40px;}
+#text4 { width:150px; height:40px; color:#FFF; float:left; position:absolute; left:50px;  }
+#top4nho { width:850px; height:38px; background:#FFF; margin-left:250px; position:absolute; top:0px; }
+#top4nho>ul>li { list-style-type:none;}
+#top4nho>ul>li { float:left; padding:0px 10px; font-size:12px; }
+#top4nho>ul>li>a { color:#000; }
+#top4nho>ul>li>a:hover { color:#666;}
+
+#top5 { width:1230px; height:0px; float:left; margin-left:401px;position:relative; margin-top:30px; }
+.ao { width:270px; height:380px; background:#FFF; float:left; margin-bottom:10px; overflow:hidden; cursor:pointer; position:relative; }
+.ao:hover { transform:scale(1.1);  z-index:1;}
+.imgao {transition:all ease-in-out 300ms; transform:scale(1);}
+.overline { width:100%; height:330px; position:absolute; bottom:-100%; left: 0; bottom:30px;  transition: all ease-in 300ms; opacity:0; }
+.ao:hover .overline { bottom:50px; opacity:0.9;}
+.textao {text-align:center; }
+.textao:hover {color:#E94616; }
+.number1 { color:#F30; float:left;padding:0px 10px; font-weight:bold; font-size:14px }
+.number2 { color:#333; text-decoration:line-through; margin-left:190px; margin-top:0px; }
+
+#doc { width:275px; height:390px; background:#FFF; float:left; margin-left:10px; overflow:hidden; cursor:pointer; position:relative; border:1px solid; border-radius:10px; border:1px double; }
+.hr { position:absolute; }
+#topdoc { width:260px; height:40px; line-height:40px; margin-left:45px; font-weight:bold; }
+#topdoc:hover { color:#E94616;}
+#chu:hover { color:#E94616;}
+.ngang:hover { transform:scale(1.1); }
+
+#idhover { background:#666;
+           width:270px;
+           height:40px;                                                   
+           color:#FFF;
+           line-height:40px;
+           margin-top:290px;
+		   padding:0 75px; }
+
+#catory { width:277px; height:360px; float:left; margin-left:10px; overflow:hidden; cursor:pointer; position:relative; margin-top:20px; }
+
+#top9 { width:2000px; height:600px; background:#FFF; float:left; overflow:hidden; cursor:pointer; position:relative; margin-top:0px;}
+.tintuc { width:1100px; height:500px; position:relative; float:left; margin-left:400px; margin-top:40px;  }
+#tin1 { width:350px; height:500px;float:left; color:#FFF;  }
+#tin2 { width:350px; height:500px;float:left;color:#FFF; margin-left:20px; }
+#tin3 { width:350px; height:500px; float:left;color:#FFF; margin-left:20px;}
+
+.hovertin {}
+.hovertin:hover { transform:scale(1.1)}
+
+#tintext1 { text-align:center; font-size:14px; font-weight:bold; margin-top:10px; }
+#tintext1 a { color:#666; }
+#tintext1 a:hover { color:#F30;}
+#tintext2 { text-align:center;font-size:13px; color:#000; margin-top:30px;  }
+.texttin { width:350px; }
+.texttin:hover a { color:#F00; }
+.clock { color:#FFF; font-size:14px; text-align:center; margin-top:30px; color:#000;}
+
+#color { color:#FFF;}
+
+.bot1 {width:275px; height:200px; float:left; margin-top:50px;}
+.bot2 {width:275px; height:200px; float:left; margin-top:50px; padding:0px 40px;}
+.bot3 {width:275px; height:200px; float:left; margin-top:50px; padding:0px 20px;}
+.bot4 {width:275px; height:200px; float:left; margin-top:50px;}
+#fot { color:#CCC;}
+.fa-school { font-size:50px; color:#F00; margin-left:80px;}
+
+#table { background:#333; width:1100px; height:500px; position:absolute; top:150px; left:400px}
+#table2 { background:#FFF; width:1100px; height:500px; position:absolute; top:150px; left:400px}
+#table3 {background:#333; width:1100px; height:500px; position:absolute; top:100px; left:400px}
+
+#bieutuong { color:#FFF; font-size:40px;}
+
+<!-- header footer -->
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.bgHeader {
+    background: #dfe6e9;
+}
+.headerLogo {
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.headerLogo a {
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+    color: #05c46b;
+}
+.headerLogo a:hover {
+    text-shadow: 0px 0px 15px;
+    color: #05c46b;
+}
+
+.headerMenu {
+    height: 60px;
+    font-weight: bold;
+}
+.headerMenu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.headerMenu ul li a {
+    color: #05c46b;
+    text-decoration: none;
+    text-shadow: 0px 0px 1px;
+}
+.headerMenu ul li a:hover {
+    color: #218c74;
+}
+.myCss {
+    background: none;
+    border: none;
+    color: #05c46b;
+    font-weight: bold;
+    text-shadow: 0px 0px 1px;
+}
+.myCss:hover {
+    color: #218c74;
+}
+
+.boxSearch {
+    border: 1px solid #218c74;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.iconSearch {
+    font-size: 24px;
+    color: #05c46b;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+/*-----footer------*/
+.bgFooter {
+    background: #aaa69d;
+    padding: 0px 10%;
+}
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 40px 20px;
+    color: #1e272e;
+}
+.footer p {
+    text-align: center;
+	margin-right:50px;
+    font-weight: bold;
+}
+.icon {
+    font-size: 30px;
+    margin:0px 150px;
+}
+.follow {
+	margin-right:50px;
+    text-align: center;
+}
+.follow i{
+    margin: 0px 5px;
+    font-size: 24px;
+}
+.follow i:first-child {
+    color: #3b5998;
+}
+.follow i:nth-child(2) {
+    color: #1DA1F2;
+}
+.follow i:last-child {
+    color: #c13584;
+}
+
+#icon { font-size:18px; color:#FFF}
+
+#cachdeu { margin-top:10px;}
+#cachdeu1{ margin-top:5px;}
+
